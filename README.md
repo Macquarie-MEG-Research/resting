@@ -1,4 +1,14 @@
-# ROINets_Yokogawa
+# Resting-State Analysis @ Macquarie University
+
+A collection of scripts to analyse "resting-state" and/or naturalistic viewing MEG data acquired from the KIT-Macquarie Research Laboratory
+
+## Source Analysis:
+Scripts will include instructions to perform:
+- Data cleaning
+- Beamforming
+- Parcellation
+
+## Stationary Whole-brain Connectivity
 
 This repository will hold scripts to compute MEG source-space connectivity between ROIs using data from the Yokogawa MEG160 system. The code is heavily based on MEG ROINets from OHBA, Oxford, UK; but uses the Fieldtrip toolbox for source analysis (LCMV beamformer).
 
@@ -13,13 +23,6 @@ Colclough, G. L., Brookes, M., Smith, S. M. and Woolrich, M. W.,
 "A symmetric multivariate leakage correction for MEG connectomes," 
 NeuroImage 117, pp. 439-448 (2015)
 
-We are grateful for Colclough and colleagues at OHBA for making their
-code openly available for re-use. Please check copyright information in 
-OSL for more information.
+## Non-stationary Connectivity using Hidden Markov Models (HMM)
 
-These scripts use the MEG ROINets code, but performs source analysis in
-Fieldtrip.
 
-Users will need to download OSL (https://github.com/OHBA-analysis).
-However please don't initiate OSL - this script will add the relevent
-bits of code for you.
